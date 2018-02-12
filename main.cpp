@@ -81,6 +81,8 @@ label1:
 	cin >> a;
 	if(a==1)
 		goto label1;
+	delete []a1;
+	delete []b1;
 	system("pause");
 return 0;
 }
